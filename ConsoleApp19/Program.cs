@@ -43,6 +43,9 @@
             #region Q1
             //var top3 = products.OrderByDescending(p => p.UnitPrice).Take(3);
             #endregion
+            #region Q2
+            //var page2 = products.Skip(5).Take(5);
+            #endregion
         }
     }
 }
