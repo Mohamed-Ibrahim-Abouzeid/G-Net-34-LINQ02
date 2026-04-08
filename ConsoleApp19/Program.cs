@@ -59,6 +59,15 @@
             //int[] ids = { 3, 9, 13, 18 };
             //bool contains9 = ids.Contains(9);
             #endregion
+            #region Q6
+            //var groupCount = products.GroupBy(p => p.Category)
+            //                     .Select(g => new
+            //                     {
+            //                         Category = g.Key,
+            //                         Count = g.Count()
+            //                     });
+
+            #endregion
         }
     }
 }
