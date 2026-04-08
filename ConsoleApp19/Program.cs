@@ -120,6 +120,10 @@
             //var dict = products.ToDictionary(p => p.ProductID);
             //var product18 = dict.ContainsKey(18) ? dict[18] : null;
             #endregion
+            #region Q16
+            //var firstOver50 = products.FirstOrDefault(p => p.UnitPrice > 50);
+
+            #endregion
         }
     }
 }
