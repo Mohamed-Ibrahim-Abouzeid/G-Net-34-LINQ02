@@ -124,6 +124,10 @@
             //var firstOver50 = products.FirstOrDefault(p => p.UnitPrice > 50);
 
             #endregion
+            #region Q17
+            //var firstOver500 = products.FirstOrDefault(p => p.UnitPrice > 500);
+
+            #endregion
         }
     }
 }
