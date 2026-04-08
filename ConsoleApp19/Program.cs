@@ -81,6 +81,17 @@
             //                              .Where(g => g.Count() > 3)
             //                              .Select(g => g.Key);
             #endregion
+            #region Q9
+           // var customerGroups =
+           //from c in customers
+           //group c by c.Country into g
+           //select new
+           //{
+           //    Country = g.Key,
+           //    Count = g.Count(),
+           //    TotalOrderValue = g.Sum(c => c.TotalOrders)
+           //};
+            #endregion
         }
     }
 }
