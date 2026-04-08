@@ -46,6 +46,10 @@
             #region Q2
             //var page2 = products.Skip(5).Take(5);
             #endregion
+            #region Q3
+            //var less25 = products.OrderBy(p => p.UnitPrice)
+            //                 .TakeWhile(p => p.UnitPrice < 25);
+            #endregion
         }
     }
 }
