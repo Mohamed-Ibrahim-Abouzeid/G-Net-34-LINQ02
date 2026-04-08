@@ -128,6 +128,10 @@
             //var firstOver500 = products.FirstOrDefault(p => p.UnitPrice > 500);
 
             #endregion
+            #region Q18
+            //var table7 = Enumerable.Range(1, 10)
+            //                   .Select(i => 7 * i);
+            #endregion
         }
     }
 }
