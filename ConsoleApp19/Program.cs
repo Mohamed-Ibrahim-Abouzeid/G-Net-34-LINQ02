@@ -141,6 +141,10 @@
             //       .Concat(customers.Take(3).Select(c => c.CompanyName));
 
             #endregion
+            #region Q21
+            //var pairing = products.Zip(customers,
+            //(p, c) => $"{p.ProductName} sold to {c.CompanyName}");
+            #endregion
 
         }
     }
